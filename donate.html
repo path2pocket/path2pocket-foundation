@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donate | Path2Pocket Foundation</title>
+  <meta name="description" content="Donate to Path2Pocket Foundation to fund youth bowling education, mentorship, scholarships, and equipment access." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header + Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Path2Pocket Foundation Home">
+        <span class="brand-mark" aria-hidden="true">P2P</span>
+        <span class="brand-text">
+          <span class="brand-name">Path2Pocket</span>
+          <span class="brand-sub">Foundation</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="programs.html">Programs</a>
+        <a class="nav-link active" href="donate.html">Donate</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+
+      <a class="button button-primary header-cta" href="donate.html">Donate</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- =========================
+    Page Header
+    ========================= -->
+    <section class="section page-header">
+      <div class="container">
+        <p class="eyebrow">Donate</p>
+        <h1>Turn generosity into opportunity</h1>
+        <p class="lead">
+          Your donation helps youth and underserved bowlers access coaching, scholarships, and the equipment they need to grow.
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================
+    Donate Content + Embed Placeholder
+    ========================= -->
+    <section class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Where your gift goes</h2>
+          <p>
+            We focus donations on direct support: coaching sessions, lane time, scholarships, and equipment access.
+            When a young athlete has consistent support, their progress accelerates—on the lanes and in life.
+          </p>
+
+          <div class="cards grid-1">
+            <article class="card">
+              <h3>Example impact levels (placeholders)</h3>
+              <ul class="bullets">
+                <li><strong>$25</strong> helps cover practice essentials and program materials</li>
+                <li><strong>$75</strong> supports a coaching session and skill development plan</li>
+                <li><strong>$150</strong> contributes to equipment access for a youth athlete</li>
+                <li><strong>$300+</strong> supports scholarship assistance for camps, events, or education</li>
+              </ul>
+              <p class="note">
+                Update these amounts to match your true costs (lane time, coaching, equipment, travel, etc.).
+              </p>
+            </article>
+          </div>
+
+          <div class="cta-banner compact">
+            <div class="cta-banner-content">
+              <h3>Prefer to sponsor a program?</h3>
+              <p>We can tailor sponsorship packages for clinics, scholarships, or equipment drives.</p>
+            </div>
+            <a class="button button-secondary" href="contact.html">Talk to Us</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="card">
+            <h2>Donate securely</h2>
+            <p class="muted">
+              Embed your Stripe / Donorbox / other donation widget below.
+            </p>
+
+            <!-- =========================
+            Donation Embed Placeholder
+            Replace this block with your widget script or iframe.
+            ========================= -->
+            <div class="embed-placeholder" aria-label="Donation widget placeholder">
+              <p><strong>Donation Widget Placeholder</strong></p>
+              <p class="muted">
+                Paste your Stripe Checkout link, Donorbox embed, or a hosted form here.
+              </p>
+
+              <!-- Example (commented out) Donorbox iframe:
+              <iframe
+                src="https://donorbox.org/embed/your-campaign"
+                name="donorbox"
+                allowpaymentrequest="allowpaymentrequest"
+                seamless="seamless"
+                frameborder="0"
+                scrolling="no"
+                height="900px"
+                width="100%"
+                style="max-width: 500px; min-width: 250px; max-height:none!important"
+              ></iframe>
+              -->
+            </div>
+
+            <div class="fineprint">
+              <p>
+                By donating, you support Path2Pocket Foundation’s mission to provide bowling education, mentorship,
+                coaching, scholarships, and access to equipment for youth and underserved bowlers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Path2Pocket Foundation</div>
+        <p class="footer-text">
+          Bowling education, mentorship, coaching, scholarships, and equipment access for youth and underserved bowlers.
+        </p>
+      </div>
+
+      <div>
+        <div class="footer-heading">Explore</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-heading">Contact</div>
+        <p class="footer-text">
+          Email: <a href="mailto:info@path2pocket.org">info@path2pocket.org</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Path2Pocket Foundation. All rights reserved.</p>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
