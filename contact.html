@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Path2Pocket Foundation</title>
+  <meta name="description" content="Contact Path2Pocket Foundation. Send a message or email us to volunteer, sponsor, or learn more." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header + Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Path2Pocket Foundation Home">
+        <span class="brand-mark" aria-hidden="true">P2P</span>
+        <span class="brand-text">
+          <span class="brand-name">Path2Pocket</span>
+          <span class="brand-sub">Foundation</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="programs.html">Programs</a>
+        <a class="nav-link" href="donate.html">Donate</a>
+        <a class="nav-link active" href="contact.html">Contact</a>
+      </nav>
+
+      <a class="button button-primary header-cta" href="donate.html">Donate</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- =========================
+    Page Header
+    ========================= -->
+    <section class="section page-header">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Let’s connect</h1>
+        <p class="lead">
+          Interested in volunteering, partnering, or enrolling in a program? Send a message and we’ll follow up.
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================
+    Contact Form + Info
+    ========================= -->
+    <section class="section">
+      <div class="container grid-2">
+        <div class="card">
+          <h2>Send a message</h2>
+          <p class="muted">This form is front-end only. Connect it to your email service or backend later.</p>
+
+          <!-- Simple form (placeholder action) -->
+          <form class="form" action="#" method="post">
+            <!-- Name -->
+            <div class="form-row">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+
+            <!-- Email -->
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+
+            <!-- Topic -->
+            <div class="form-row">
+              <label for="topic">Reason for Contact</label>
+              <select id="topic" name="topic">
+                <option value="programs">Programs / Enrollment</option>
+                <option value="volunteer">Volunteer</option>
+                <option value="sponsorship">Sponsorship / Partnership</option>
+                <option value="donation">Donation Questions</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <!-- Message -->
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+
+            <button class="button button-primary button-full" type="submit">Send Message</button>
+
+            <p class="fineprint">
+              Prefer email? Write us at <a href="mailto:info@path2pocket.org">info@path2pocket.org</a>.
+            </p>
+          </form>
+        </div>
+
+        <div>
+          <div class="card">
+            <h2>Email</h2>
+            <p>
+              <a href="mailto:info@path2pocket.org">info@path2pocket.org</a>
+            </p>
+
+            <hr class="divider" />
+
+            <h2>What to include</h2>
+            <ul class="bullets">
+              <li>Your name and best contact info</li>
+              <li>Your interest (programs, volunteering, sponsorship)</li>
+              <li>Any relevant timeline or details</li>
+            </ul>
+
+            <div class="callout">
+              <p class="callout-title">Sponsors & partners</p>
+              <p class="callout-text">
+                We welcome community partners who want to fund scholarships, clinics, or equipment access.
+              </p>
+              <a class="button button-secondary button-full" href="donate.html">Support the Mission</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Path2Pocket Foundation</div>
+        <p class="footer-text">
+          Bowling education, mentorship, coaching, scholarships, and equipment access for youth and underserved bowlers.
+        </p>
+      </div>
+
+      <div>
+        <div class="footer-heading">Explore</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-heading">Contact</div>
+        <p class="footer-text">
+          Email: <a href="mailto:info@path2pocket.org">info@path2pocket.org</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Path2Pocket Foundation. All rights reserved.</p>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
